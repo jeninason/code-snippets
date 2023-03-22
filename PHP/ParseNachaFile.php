@@ -1,5 +1,7 @@
 <?php
 
+//Symfony integrated parser to handle downloaded Nacha files. To parse out the pieces needed and email to the relevant parties
+
 namespace CommonBundle\Command\Utility;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
