@@ -20,7 +20,7 @@ include 'ftpVars.php';
  * $emailTo
  * $emailCC
  * $emailSubject
- * $emailMessage
+ * $emailMessage --> moved this to inline since it contained some vars
  */
 
 
@@ -35,6 +35,8 @@ if (! is_file($oldFile)) {
         usage();
         exit;
 }
+
+$emailMessage = "New Matured Statements file $newName with $pagecount pages has been uploaded";
 
 $sent = false;
 $conn_id = ftp_connect($ftpUrl);

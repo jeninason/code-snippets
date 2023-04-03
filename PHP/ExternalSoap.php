@@ -6,7 +6,7 @@ $PAYOFF_URL = '<INSERT URL HERE>';
 
 //NOTE: this is part of a larger class with other functions handling the connection
 
-function getPayoffQuote($appid) {
+function getPayoffQuote($appid, $PAYOFF_URL) {
 		
 		$client = new SoapClient($PAYOFF_URL);
 		$template = 'get-payoff-quote.php';
