@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?><xmlrequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope"
+        xmlns="http://www.netaccess.transunion.com/namespace">
+        <systemId>MOTOLEA4</systemId>
+        <systemPassword>N77fNh2jxZ</systemPassword>
+        <productrequest>
+                <creditBureau xmlns="http://www.transunion.com/namespace">
+                        <document>request</document>
+                        <version>2.14</version>
+                        <transactionControl>
+                                <userRefNumber>Person:_593d77523684f3445a4526285156f50c</userRefNumber>
+                                <subscriber>
+                                        <industryCode>A</industryCode>
+                                        <memberCode>03376055</memberCode>
+                                        <inquirySubscriberPrefixCode>0622</inquirySubscriberPrefixCode>
+                                        <password>P1N6</password>
+                                </subscriber>
+                                <options>
+                                        <processingEnvironment>standardTest</processingEnvironment>
+                                        <country>us</country>
+                                        <language>en</language>
+                                        <contractualRelationship>individual</contractualRelationship>
+                                        <pointOfSaleIndicator>none</pointOfSaleIndicator>
+                                </options>
+                        </transactionControl>
+                        <product>
+                                <code>07000</code>
+                                <subject>
+                                        <number>1</number>
+                                        <subjectRecord>
+                                                <indicative>
+                                                        <name>
+                                                                <person>
+                                                                        <alsoReportedAs>false</alsoReportedAs>
+                                                                        <first>MARGARET</first>
+                                                                        <middle />
+                                                                        <last>DAVIS</last>
+                                                                        <generationalSuffix />
+                                                                </person>
+                                                        </name>
+                                                        <address>
+                                                                <status>current</status>
+                                                                <street>
+                                                                        <unparsed>2525 E 104TH AVE 426</unparsed>
+                                                                </street>
+                                                                <location>
+                                                                        <city>THORNTON</city>
+                                                                        <state>CO</state>
+                                                                        <zipCode>80233</zipCode>
+                                                                </location>
+                                                        </address>
+                                                        <socialSecurity>
+                                                                <number>666466167</number>
+                                                        </socialSecurity>
+                                                        <dateOfBirth>1970-01-01</dateOfBirth>
+                                                        <phone>
+                                                                <number>
+                                                                        <type>standard</type>
+                                                                        <areaCode></areaCode>
+                                                                        <exchange></exchange>
+                                                                        <suffix></suffix>
+                                                                </number>
+                                                        </phone>
+                                                </indicative>
+                                                <custom>
+                                                        <credit>
+                                                                <creditSummary>
+                                                                        <returnAccountRating>true</returnAccountRating>
+                                                                </creditSummary>
+                                                        </credit>
+                                                </custom>
+                                       </subjectRecord>
+                                </subject>
+                                <responseInstructions>
+                                        <returnErrorText>true</returnErrorText>
+                                </responseInstructions>
+                        </product>
+
+                </creditBureau>
+        </productrequest>
+</xmlrequest>

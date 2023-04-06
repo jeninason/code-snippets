@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?><xmlrequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope"
+        xmlns="http://www.netaccess.transunion.com/namespace">
+        <systemId>MOTOLEA4</systemId>
+        <systemPassword>N77fNh2jxZ</systemPassword>
+        <productrequest>
+                <creditBureau xmlns="http://www.transunion.com/namespace">
+                        <document>request</document>
+                        <version>2.14</version>
+                        <transactionControl>
+                                <userRefNumber>Person:_acdff8d68f56151b8c4b281f2a78eb25</userRefNumber>
+                                <subscriber>
+                                        <industryCode>A</industryCode>
+                                        <memberCode>03376055</memberCode>
+                                        <inquirySubscriberPrefixCode>0622</inquirySubscriberPrefixCode>
+                                        <password>P1N6</password>
+                                </subscriber>
+                                <options>
+                                        <processingEnvironment>standardTest</processingEnvironment>
+                                        <country>us</country>
+                                        <language>en</language>
+                                        <contractualRelationship>individual</contractualRelationship>
+                                        <pointOfSaleIndicator>none</pointOfSaleIndicator>
+                                </options>
+                        </transactionControl>
+                        <product>
+                                <code>07000</code>
+                                <subject>
+                                        <number>1</number>
+                                        <subjectRecord>
+                                                <indicative>
+                                                        <name>
+                                                                <person>
+                                                                        <alsoReportedAs>false</alsoReportedAs>
+                                                                        <first>PETER</first>
+                                                                        <middle />
+                                                                        <last>DELGIORNO</last>
+                                                                        <generationalSuffix />
+                                                                </person>
+                                                        </name>
+                                                        <address>
+                                                                <status>current</status>
+                                                                <street>
+                                                                        <unparsed>6236 CR 116</unparsed>
+                                                                </street>
+                                                                <location>
+                                                                        <city>ALVIN</city>
+                                                                        <state>TX</state>
+                                                                        <zipCode>77511</zipCode>
+                                                                </location>
+                                                        </address>
+                                                        <socialSecurity>
+                                                                <number>666348734</number>
+                                                        </socialSecurity>
+                                                        <dateOfBirth>1970-01-01</dateOfBirth>
+                                                        <phone>
+                                                                <number>
+                                                                        <type>standard</type>
+                                                                        <areaCode></areaCode>
+                                                                        <exchange></exchange>
+                                                                        <suffix></suffix>
+                                                                </number>
+                                                        </phone>
+                                                </indicative>
+                                                <custom>
+                                                        <credit>
+                                                                <creditSummary>
+                                                                        <returnAccountRating>true</returnAccountRating>
+                                                                </creditSummary>
+                                                        </credit>
+                                                </custom>
+                                       </subjectRecord>
+                                </subject>
+                                <responseInstructions>
+                                        <returnErrorText>true</returnErrorText>
+                                </responseInstructions>
+                        </product>
+
+                </creditBureau>
+        </productrequest>
+</xmlrequest>
