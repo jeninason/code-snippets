@@ -1,0 +1,82 @@
+------------------------------TEST A: TREE BUILT FROM A SORTED LIST, ASCENDING------------------------------
+	...building tree with entry 10000
+Time required to build tree: 125 milliseconds
+Tree Info:
+	Root is Incident #81205051	Date: 2008-11-10
+	Number of nodes: 10000
+	Number of nodes equal to the root: 6
+	Number of nodes bigger than root: 9994
+	Number of nodes in left subtree: 5
+	Number of nodes in right subtree: 9994
+	Left height: 5
+	Right height: 2458
+Tree build and report complete!
+
+Processing tree...
+	Incident Date: 01/1/2003	Number of Incidents: 0	Tree Time: 0
+	Incident Date: 10/27/2015	Number of Incidents: 4	Tree Time: 0
+	Incident Date: 10/02/2009	Number of Incidents: 2	Tree Time: 0
+	Incident Date: 03/23/2010	Number of Incidents: 4	Tree Time: 0
+	Incident Date: 03/28/2015	Number of Incidents: 8	Tree Time: 0
+	Incident Date: 11/9/2018	Number of Incidents: 0	Tree Time: 0
+	Incident Date: 11/9/2000	Number of Incidents: 0	Tree Time: 0
+Processing complete. 
+Total Time Required: Tree: 0
+
+
+------------------------------TEST B: TREE BUILT FROM A SORTED LIST, DESCENDING------------------------------
+	...building tree with entry 10000
+Time required to build tree: 289 milliseconds
+Tree Info:
+	Root is Incident #150938666	Date: 2015-10-27
+	Number of nodes: 10000
+	Number of nodes equal to the root: 4
+	Number of nodes bigger than root: 0
+	Number of nodes in left subtree: 9999
+	Number of nodes in right subtree: 0
+	Left height: 9999
+	Right height: 0
+Tree build and report complete!
+
+Processing tree...
+	Incident Date: 01/1/2003	Number of Incidents: 0	Tree Time: 1
+	Incident Date: 10/27/2015	Number of Incidents: 4	Tree Time: 0
+	Incident Date: 10/02/2009	Number of Incidents: 2	Tree Time: 0
+	Incident Date: 03/23/2010	Number of Incidents: 4	Tree Time: 0
+	Incident Date: 03/28/2015	Number of Incidents: 8	Tree Time: 0
+	Incident Date: 11/9/2018	Number of Incidents: 0	Tree Time: 0
+	Incident Date: 11/9/2000	Number of Incidents: 0	Tree Time: 1
+Processing complete. 
+Total Time Required: Tree: 2
+
+
+------------------------------TEST C: TREE BUILT FROM A SHUFFLED LIST------------------------------
+	...building tree with entry 10000
+Time required to build tree: 4 milliseconds
+Tree Info:
+	Root is Incident #90557748	Date: 2009-05-30
+	Number of nodes: 10000
+	Number of nodes equal to the root: 6
+	Number of nodes bigger than root: 9108
+	Number of nodes in left subtree: 891
+	Number of nodes in right subtree: 9108
+	Left height: 22
+	Right height: 35
+Tree build and report complete!
+
+Processing tree and list...
+	Incident Date: 01/1/2003	Number of Incidents: 0	Tree Time: 0  List Time: 28
+	Incident Date: 10/27/2015	Number of Incidents: 4	Tree Time: 0  List Time: 23
+	Incident Date: 10/02/2009	Number of Incidents: 2	Tree Time: 0  List Time: 19
+	Incident Date: 03/23/2010	Number of Incidents: 4	Tree Time: 0  List Time: 18
+	Incident Date: 03/28/2015	Number of Incidents: 8	Tree Time: 0  List Time: 16
+	Incident Date: 11/9/2018	Number of Incidents: 0	Tree Time: 0  List Time: 11
+	Incident Date: 11/9/2000	Number of Incidents: 0	Tree Time: 0  List Time: 8
+Processing complete. 
+Total Time Required: Tree: 0 List: 123
+Tree was faster.
+
+------------------------------EXTRA CREDIT TEST: COUNT OF UNIQUE VALUES------------------------------
+Unique Values: 
+***ERROR! This test assumes maxNumberReports=40000, not 10000
+   Change this in line 10 in order to use this test.

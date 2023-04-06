@@ -1,0 +1,527 @@
+
+
+------------------------------TESTING ADD METHOD------------------------------
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		<none>
+Expected students on waitlist (in this exact order):	<none>
+Displaying course now...
+Media Studies
+0 enrolled (maximum allowed 5)
+0 on waitlist (maximum allowed 5)
+
+Trying to add Adam Ant (tuition paid and room in course)	Course before add: roster size=0  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 1
+    Actual after roster size = 1
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Bob Barker (tuition not paid)	Course before add: roster size=1  waitlist size=0
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 1
+    Actual after roster size = 1
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Chevy Chase (tuition paid and room in course)	Course before add: roster size=1  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Doris Day (tuition paid and room in course)	Course before add: roster size=2  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 3
+    Actual after roster size = 3
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Emilio Estevez (tuition paid and room in course)	Course before add: roster size=3  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 4
+    Actual after roster size = 4
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Farrah Fawcet (tuition paid and room in course)	Course before add: roster size=4  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Greta Garbo (tuition paid and room in course)	Course before add: roster size=5  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 1
+  Actual after waitlist size = 1
+
+Trying to add Helen Hunt (tuition paid and room in course)	Course before add: roster size=5  waitlist size=1
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 2
+  Actual after waitlist size = 2
+
+Trying to add Jack Johnson (tuition paid and room in course)	Course before add: roster size=5  waitlist size=2
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 3
+  Actual after waitlist size = 3
+
+Trying to add Kim Kardashian (tuition paid and room in course)	Course before add: roster size=5  waitlist size=3
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 4
+  Actual after waitlist size = 4
+
+Trying to add Martina McBride (tuition paid and room in course)	Course before add: roster size=5  waitlist size=4
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+Trying to add Renne Russo (roster and waitlist full)	Course before add: roster size=5  waitlist size=5
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+Trying to add Susan Serandon (roster and waitlist full)	Course before add: roster size=5  waitlist size=5
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+Trying to add Vince Vaughn (roster and waitlist full)	Course before add: roster size=5  waitlist size=5
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+Trying to add Walt Whitman (roster and waitlist full)	Course before add: roster size=5  waitlist size=5
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA CC DD EE FF 
+Expected students on waitlist (in this exact order):	GG HH JJ KK MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Adam Ant (S925)
+	Chevy Chase (S512)
+	Doris Day (S513)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+5 on waitlist (maximum allowed 5)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+	Jack Johnson (S790)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+
+Trying to add Chevy Chase (student already enrolled on the roster)	Course before add: roster size=5  waitlist size=5
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+Trying to add Helen Hunt (student already enrolled on the waitlist)	Course before add: roster size=5  waitlist size=5
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 5
+  Actual after waitlist size = 5
+
+
+------------------------------TESTING DROP METHOD------------------------------
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA CC DD EE FF 
+Expected students on waitlist (in this exact order):	GG HH JJ KK MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Adam Ant (S925)
+	Chevy Chase (S512)
+	Doris Day (S513)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+5 on waitlist (maximum allowed 5)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+	Jack Johnson (S790)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+
+Trying to drop Chevy Chase (student enrolled on the roster)	Course before drop: roster size=5  waitlist size=5
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 4
+  Actual after waitlist size = 4
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA DD EE FF GG 
+Expected students on waitlist (in this exact order):	HH JJ KK MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Adam Ant (S925)
+	Doris Day (S513)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+4 on waitlist (maximum allowed 5)
+	Helen Hunt (S281)
+	Jack Johnson (S790)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+
+Trying to drop Walt Whitman (student is not enrolled)	Course before drop: roster size=5  waitlist size=4
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 4
+  Actual after waitlist size = 4
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA DD EE FF GG 
+Expected students on waitlist (in this exact order):	HH JJ KK MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Adam Ant (S925)
+	Doris Day (S513)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+4 on waitlist (maximum allowed 5)
+	Helen Hunt (S281)
+	Jack Johnson (S790)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+
+Trying to drop Jack Johnson (student enrolled on the waitlist)	Course before drop: roster size=5  waitlist size=4
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 3
+  Actual after waitlist size = 3
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA DD EE FF GG 
+Expected students on waitlist (in this exact order):	HH KK MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Adam Ant (S925)
+	Doris Day (S513)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+3 on waitlist (maximum allowed 5)
+	Helen Hunt (S281)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+
+Trying to drop Adam Ant (student enrolled on the roster)	Course before drop: roster size=5  waitlist size=3
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 2
+  Actual after waitlist size = 2
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		DD EE FF GG HH 
+Expected students on waitlist (in this exact order):	KK MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Doris Day (S513)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+2 on waitlist (maximum allowed 5)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+
+Trying to drop Doris Day (student enrolled on the roster)	Course before drop: roster size=5  waitlist size=2
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 1
+  Actual after waitlist size = 1
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		EE FF GG HH KK 
+Expected students on waitlist (in this exact order):	MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+	Kim Kardashian (S336)
+1 on waitlist (maximum allowed 5)
+	Martina McBride (S156)
+
+Trying to drop Doris Day (student is not enrolled)	Course before drop: roster size=5  waitlist size=1
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 1
+  Actual after waitlist size = 1
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		EE FF GG HH KK 
+Expected students on waitlist (in this exact order):	MM 
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Emilio Estevez (S516)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+	Kim Kardashian (S336)
+1 on waitlist (maximum allowed 5)
+	Martina McBride (S156)
+
+Trying to drop Emilio Estevez (student enrolled on the roster)	Course before drop: roster size=5  waitlist size=1
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 5
+    Actual after roster size = 5
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		FF GG HH KK MM 
+Expected students on waitlist (in this exact order):	<none>
+Displaying course now...
+Media Studies
+5 enrolled (maximum allowed 5)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+0 on waitlist (maximum allowed 5)
+
+Trying to drop Farrah Fawcet (student enrolled on the roster)	Course before drop: roster size=5  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 4
+    Actual after roster size = 4
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		GG HH KK MM 
+Expected students on waitlist (in this exact order):	<none>
+Displaying course now...
+Media Studies
+4 enrolled (maximum allowed 5)
+	Greta Garbo (S419)
+	Helen Hunt (S281)
+	Kim Kardashian (S336)
+	Martina McBride (S156)
+0 on waitlist (maximum allowed 5)
+
+Trying to drop Greta Garbo (student enrolled on the roster)	Course before drop: roster size=4  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 3
+    Actual after roster size = 3
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to drop Helen Hunt (student enrolled on the roster)	Course before drop: roster size=3  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to drop Kim Kardashian (student enrolled on the roster)	Course before drop: roster size=2  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 1
+    Actual after roster size = 1
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to drop Martina McBride (student enrolled on the roster)	Course before drop: roster size=1  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 0
+    Actual after roster size = 0
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		<none>
+Expected students on waitlist (in this exact order):	<none>
+Displaying course now...
+Media Studies
+0 enrolled (maximum allowed 5)
+0 on waitlist (maximum allowed 5)
+
+Trying to drop Adam Ant (student is not enrolled)	Course before drop: roster size=0  waitlist size=0
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 0
+    Actual after roster size = 0
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		<none>
+Expected students on waitlist (in this exact order):	<none>
+Displaying course now...
+Media Studies
+0 enrolled (maximum allowed 5)
+0 on waitlist (maximum allowed 5)
+
+
+------------------------------TESTING A MIX OF ADD AND DROP------------------------------
+
+Trying to add Adam Ant (tuition paid and room in course)	Course before add: roster size=0  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 1
+    Actual after roster size = 1
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Chevy Chase (tuition paid and room in course)	Course before add: roster size=1  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Doris Day (tuition paid and room in course)	Course before add: roster size=2  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 1
+  Actual after waitlist size = 1
+
+Trying to add Emilio Estevez (tuition paid and room in course)	Course before add: roster size=2  waitlist size=1
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 2
+  Actual after waitlist size = 2
+
+Trying to add Farrah Fawcet (roster and waitlist full)	Course before add: roster size=2  waitlist size=2
+Expected return result = false
+  Actual return result = false
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 2
+  Actual after waitlist size = 2
+
+Trying to drop Chevy Chase (student enrolled on the roster)	Course before drop: roster size=2  waitlist size=2
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 1
+  Actual after waitlist size = 1
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA DD 
+Expected students on waitlist (in this exact order):	EE 
+Displaying course now...
+Independent Study
+2 enrolled (maximum allowed 2)
+	Adam Ant (S925)
+	Doris Day (S513)
+1 on waitlist (maximum allowed 2)
+	Emilio Estevez (S516)
+
+Trying to drop Emilio Estevez (student enrolled on the waitlist)	Course before drop: roster size=2  waitlist size=1
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 0
+  Actual after waitlist size = 0
+
+Trying to add Farrah Fawcet (tuition paid and room in course)	Course before add: roster size=2  waitlist size=0
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 1
+  Actual after waitlist size = 1
+
+Trying to add Greta Garbo (tuition paid and room in course)	Course before add: roster size=2  waitlist size=1
+Expected return result = true
+  Actual return result = true
+  Expected after roster size = 2
+    Actual after roster size = 2
+Expected after waitlist size = 2
+  Actual after waitlist size = 2
+
+----------Invoking toString method: there is no automated test here. Compare the results manually.
+Expected students on roster (in any order):		AA DD 
+Expected students on waitlist (in this exact order):	FF GG 
+Displaying course now...
+Independent Study
+2 enrolled (maximum allowed 2)
+	Adam Ant (S925)
+	Doris Day (S513)
+2 on waitlist (maximum allowed 2)
+	Farrah Fawcet (S956)
+	Greta Garbo (S419)
+
+------------------------------ Summary ------------------------------ 
+All automated tests have passed. 
+Manually review your code for style. 
+Manually view the expected output to make sure it matches.

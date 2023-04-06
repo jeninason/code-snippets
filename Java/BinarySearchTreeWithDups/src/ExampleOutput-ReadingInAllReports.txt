@@ -1,0 +1,185 @@
+COMPARISON A: TREE BUILT FROM A SORTED LIST, ASCENDING
+	...building tree with entry 10000
+	...building tree with entry 20000
+	...building tree with entry 30000
+	...building tree with entry 40000
+	...building tree with entry 50000
+	...building tree with entry 60000
+	...building tree with entry 70000
+	...building tree with entry 80000
+	...building tree with entry 90000
+	...building tree with entry 100000
+	...building tree with entry 110000
+	...building tree with entry 120000
+	...building tree with entry 130000
+	...building tree with entry 140000
+	...building tree with entry 150000
+	...building tree with entry 160000
+	...building tree with entry 170000
+	...building tree with entry 180000
+	...building tree with entry 190000
+	...building tree with entry 200000
+	...building tree with entry 210000
+	...building tree with entry 220000
+	...building tree with entry 230000
+	...building tree with entry 240000
+	...building tree with entry 250000
+	...building tree with entry 260000
+	...building tree with entry 270000
+	...building tree with entry 280000
+	...building tree with entry 290000
+	...building tree with entry 300000
+	...building tree with entry 310000
+	...building tree with entry 320000
+	...building tree with entry 330000
+	...building tree with entry 340000
+	...building tree with entry 350000
+	...building tree with entry 360000
+	...building tree with entry 370000
+Time required to build tree: 33057 milliseconds
+Tree Info:
+	Root is Incident #30003030	Date: 2003-01-01
+	Number of nodes: 371864
+	Number of nodes equal to the root: 72
+	Number of nodes bigger than root: 371792
+	Number of nodes in left subtree: 71
+	Number of nodes in right subtree: 371792
+	Left height: 71
+	Right height: 4804
+Tree build and report complete!
+
+Processing tree and list...
+	Incident Date: 01/1/2003	Number of Incidents (should be equal): Tree Count: 72   List Count: 72	Tree Time: 0  List Time: 377
+	Incident Date: 10/27/2015	Number of Incidents (should be equal): Tree Count: 73   List Count: 73	Tree Time: 0  List Time: 404
+	Incident Date: 10/02/2009	Number of Incidents (should be equal): Tree Count: 76   List Count: 76	Tree Time: 1  List Time: 254
+	Incident Date: 03/23/2010	Number of Incidents (should be equal): Tree Count: 58   List Count: 58	Tree Time: 0  List Time: 446
+	Incident Date: 03/28/2015	Number of Incidents (should be equal): Tree Count: 176   List Count: 176	Tree Time: 0  List Time: 622
+	Incident Date: 11/9/2018	Number of Incidents (should be equal): Tree Count: 0   List Count: 0	Tree Time: 2  List Time: 533
+	Incident Date: 11/9/2000	Number of Incidents (should be equal): Tree Count: 0   List Count: 0	Tree Time: 0  List Time: 440
+Processing complete. 
+Tree was faster.  Total Time Required: Tree: 3 List: 3076
+
+COMPARISON B: TREE BUILT FROM A SHUFFLED LIST
+	...building tree with entry 10000
+	...building tree with entry 20000
+	...building tree with entry 30000
+	...building tree with entry 40000
+	...building tree with entry 50000
+	...building tree with entry 60000
+	...building tree with entry 70000
+	...building tree with entry 80000
+	...building tree with entry 90000
+	...building tree with entry 100000
+	...building tree with entry 110000
+	...building tree with entry 120000
+	...building tree with entry 130000
+	...building tree with entry 140000
+	...building tree with entry 150000
+	...building tree with entry 160000
+	...building tree with entry 170000
+	...building tree with entry 180000
+	...building tree with entry 190000
+	...building tree with entry 200000
+	...building tree with entry 210000
+	...building tree with entry 220000
+	...building tree with entry 230000
+	...building tree with entry 240000
+	...building tree with entry 250000
+	...building tree with entry 260000
+	...building tree with entry 270000
+	...building tree with entry 280000
+	...building tree with entry 290000
+	...building tree with entry 300000
+	...building tree with entry 310000
+	...building tree with entry 320000
+	...building tree with entry 330000
+	...building tree with entry 340000
+	...building tree with entry 350000
+	...building tree with entry 360000
+	...building tree with entry 370000
+Time required to build tree: 2951 milliseconds
+Tree Info:
+	Root is Incident #156098535	Date: 2015-03-16
+	Number of nodes: 371864
+	Number of nodes equal to the root: 124
+	Number of nodes bigger than root: 26477
+	Number of nodes in left subtree: 345386
+	Number of nodes in right subtree: 26477
+	Left height: 179
+	Right height: 187
+Tree build and report complete!
+
+Processing tree and list...
+	Incident Date: 01/1/2003	Number of Incidents (should be equal): Tree Count: 72   List Count: 72	Tree Time: 0  List Time: 322
+	Incident Date: 10/27/2015	Number of Incidents (should be equal): Tree Count: 73   List Count: 73	Tree Time: 0  List Time: 338
+	Incident Date: 10/02/2009	Number of Incidents (should be equal): Tree Count: 76   List Count: 76	Tree Time: 0  List Time: 309
+	Incident Date: 03/23/2010	Number of Incidents (should be equal): Tree Count: 58   List Count: 58	Tree Time: 0  List Time: 306
+	Incident Date: 03/28/2015	Number of Incidents (should be equal): Tree Count: 176   List Count: 176	Tree Time: 0  List Time: 324
+	Incident Date: 11/9/2018	Number of Incidents (should be equal): Tree Count: 0   List Count: 0	Tree Time: 0  List Time: 358
+	Incident Date: 11/9/2000	Number of Incidents (should be equal): Tree Count: 0   List Count: 0	Tree Time: 0  List Time: 394
+Processing complete. 
+Tree was faster.  Total Time Required: Tree: 0 List: 2351
+
+EXTRA CREDIT: UNIQUE VALUES
+Unique Values: if all reports used: 4681; if 40,000 reports used: 4664: 0
+
+COMPARISON C: TREE BUILT FROM A SORTED LIST, DESCENDING
+	...building tree with entry 10000
+	...building tree with entry 20000
+	...building tree with entry 30000
+	...building tree with entry 40000
+	...building tree with entry 50000
+	...building tree with entry 60000
+	...building tree with entry 70000
+	...building tree with entry 80000
+	...building tree with entry 90000
+	...building tree with entry 100000
+	...building tree with entry 110000
+	...building tree with entry 120000
+	...building tree with entry 130000
+	...building tree with entry 140000
+	...building tree with entry 150000
+	...building tree with entry 160000
+	...building tree with entry 170000
+	...building tree with entry 180000
+	...building tree with entry 190000
+	...building tree with entry 200000
+	...building tree with entry 210000
+	...building tree with entry 220000
+	...building tree with entry 230000
+	...building tree with entry 240000
+	...building tree with entry 250000
+	...building tree with entry 260000
+	...building tree with entry 270000
+	...building tree with entry 280000
+	...building tree with entry 290000
+	...building tree with entry 300000
+	...building tree with entry 310000
+	...building tree with entry 320000
+	...building tree with entry 330000
+	...building tree with entry 340000
+	...building tree with entry 350000
+	...building tree with entry 360000
+	...building tree with entry 370000
+Time required to build tree: 3182967 milliseconds
+Tree Info:
+	Root is Incident #156266124	Date: 2015-10-27
+	***Cannot find the number of nodes! Stack overflow.
+	Number of nodes equal to the root: 73
+	Number of nodes bigger than root: 0
+	***Cannot find the number of nodes in the left subtree! Stack overflow.
+	Number of nodes in right subtree: 0
+	***Cannot find the left height! Stack overflow.
+	Right height: 0
+Tree build and report complete!
+
+Processing tree and list...
+	Incident Date: 01/1/2003	Number of Incidents (should be equal): Tree Count: 72   List Count: 72	Tree Time: 19  List Time: 478
+	Incident Date: 10/27/2015	Number of Incidents (should be equal): Tree Count: 73   List Count: 73	Tree Time: 0  List Time: 1030
+	Incident Date: 10/02/2009	Number of Incidents (should be equal): Tree Count: 76   List Count: 76	Tree Time: 5  List Time: 320
+	Incident Date: 03/23/2010	Number of Incidents (should be equal): Tree Count: 58   List Count: 58	Tree Time: 8  List Time: 503
+	Incident Date: 03/28/2015	Number of Incidents (should be equal): Tree Count: 176   List Count: 176	Tree Time: 1  List Time: 351
+	Incident Date: 11/9/2018	Number of Incidents (should be equal): Tree Count: 0   List Count: 0	Tree Time: 0  List Time: 362
+	Incident Date: 11/9/2000	Number of Incidents (should be equal): Tree Count: 0   List Count: 0	Tree Time: 11  List Time: 364
+Processing complete. 
+Tree was faster.  Total Time Required: Tree: 44 List: 3408

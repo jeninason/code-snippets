@@ -1,0 +1,14 @@
+Part B
+1.
+The tree in Test A was built much faster than Test B. This is because this binary search tree has duplicates, and whenever a duplicate is found, it goes to the left tree exclusively. Since the tree in Test B is in descending order, there is never anything placed in the right child. With the distribution of nodes between the left and right tree slightly more, even in Tree A, it allowed for a faster build and a somewhat more compact tree.
+
+2.
+The comparison with Test A and Test C makes the nodes' distribution between the left and right branches more pronounced as Test C is shuffled. Test C was much faster than Test A because the tree is wider rather than deeper. The left and right heights are almost identical in Tree C compared to Tree A. 
+
+3.
+The tree was much faster than the list in Test C. The complexity of a Binary Search Tree is O(log n) in the worst case, compared with lists which is O(n). There's no way to narrow your search for a specific node with a list, as you need to iterate over each one in order.
+
+4.
+The main characteristic of the binary search tree that affects its efficiency is the sorted nature of the search. Finding a specific node in a binary search tree takes far fewer tests than finding in a list, as you can narrow the results with every test. The binary search tree halves your search (well not quite half in the case of dupes) with each check to see if the node has been found.  
+
+

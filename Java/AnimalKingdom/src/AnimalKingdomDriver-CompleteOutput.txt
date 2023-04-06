@@ -1,0 +1,132 @@
+------------------------------TEST ALL ANIMALS AND COMPARABLE IMPLEMENTATION------------------------------
+Should print 13 animals, ordered in alphabetic order by name:
+
+BabyBeluga O'BabyBeluga (id=8):	Live Birth	Warm Blooded	Mammal	Whale (lives in water, breathes air)	Beluga Whale
+Blingy Gold Gold (id=2):	Lays Eggs	Cold Blooded	Fish (lives in water, does not breathe air)	Goldfish
+Cali Condor the Great (id=6):	Lays Eggs	Warm Blooded	Bird (has wings)	California Condor (flies, endangered)
+Donald Duck E. Platt (id=11):	Lays Eggs	Warm Blooded	Mammal	Duck Billed Platypus
+Goldie Goldfishy (id=1):	Lays Eggs	Cold Blooded	Fish (lives in water, does not breathe air)	Goldfish
+Head in the Sand Hallie (id=7):	Lays Eggs	Warm Blooded	Bird (has wings)	Ostrich (does not fly)
+Horsey McHorseface (id=12):	Live Birth	Warm Blooded	Mammal	Horse
+Mr. Ed the Fourth (id=13):	Live Birth	Warm Blooded	Mammal	Horse
+Never Irrelephant (id=10):	Live Birth	Warm Blooded	Mammal	Elephant (endangered)
+Pretty Bird Pretty (id=5):	Lays Eggs	Warm Blooded	Bird (has wings)	Parakeet (flies)
+Spouty the Blue Whale (id=9):	Live Birth	Warm Blooded	Mammal	Whale (lives in water, breathes air)	Blue Whale (endangered)
+Toothy the Shark (id=3):	Live Birth	Cold Blooded	Fish (lives in water, does not breathe air)	Great White Shark (endangered)
+Tweety Parakeety (id=4):	Lays Eggs	Warm Blooded	Bird (has wings)	Parakeet (flies)
+
+
+------------------------------TEST WARM/COLD BLOODED------------------------------
+Number of warm-blooded animals:
+	Expected=10
+	  Actual=10
+Number of cold-blooded animals:
+	Expected=3
+	  Actual=3
+
+All warm-blooded animals. Should print: 
+BabyBeluga O'BabyBeluga   Cali Condor the Great   Donald Duck E. Platt   Head in the Sand Hallie   Horsey McHorseface   Mr. Ed the Fourth   Never Irrelephant   Pretty Bird Pretty   Spouty the Blue Whale   Tweety Parakeety
+BabyBeluga O'BabyBeluga   Cali Condor the Great   Donald Duck E. Platt   Head in the Sand Hallie   Horsey McHorseface   Mr. Ed the Fourth   Never Irrelephant   Pretty Bird Pretty   Spouty the Blue Whale   Tweety Parakeety   
+
+All cold-blooded animals. Should print: 
+Blingy Gold Gold   Goldie Goldfishy   Toothy the Shark   
+Blingy Gold Gold   Goldie Goldfishy   Toothy the Shark   
+
+
+------------------------------TEST BIRTH TYPE------------------------------
+Number of warm-blooded animals:
+	Expected=6
+	  Actual=6
+Number of cold-blooded animals:
+	Expected=7
+	  Actual=7
+
+All live birth animals. Should print: 
+BabyBeluga O'BabyBeluga   Horsey McHorseface   Mr. Ed the Fourth   Never Irrelephant   Spouty the Blue Whale   Toothy the Shark   
+BabyBeluga O'BabyBeluga   Horsey McHorseface   Mr. Ed the Fourth   Never Irrelephant   Spouty the Blue Whale   Toothy the Shark   
+
+All egg laying animals. Should print: 
+Blingy Gold Gold   Cali Condor the Great   Donald Duck E. Platt   Goldie Goldfishy   Head in the Sand Hallie   Pretty Bird Pretty   Tweety Parakeety   
+Blingy Gold Gold   Cali Condor the Great   Donald Duck E. Platt   Goldie Goldfishy   Head in the Sand Hallie   Pretty Bird Pretty   Tweety Parakeety   
+
+
+------------------------------TEST EQUALS METHOD------------------------------
+
+Testing if list contains Spouty the Blue Whale	ID=9
+	Expected= true
+	  Actual= true
+
+Testing if list contains SPOUTY THE BLUE WHALE	ID=9
+	Expected= true
+	  Actual= true
+
+Testing if list contains Spouty the Blue Whale	ID=9
+	Expected= true
+	  Actual= true
+
+Testing if list contains Spouty the Blue Whale	ID=19
+	Expected= false
+	  Actual= false
+
+Testing if list contains Sprouty the Red Whale	ID=9
+	Expected= false
+	  Actual= false
+
+
+------------------------------TEST ANIMALS WITH WINGS------------------------------
+Number of winged animals:
+	Expected=4
+	  Actual=4
+Number of winged animals that can fly:
+	Expected=3
+	  Actual=3
+Number of winged animals that cannot fly:
+	Expected=1
+	  Actual=1
+
+Should print 4 lines: Cali can fly, Head in Sand flightless, Pretty can fly, and Tweety can fly.
+	Cali Condor the Great can fly!
+	Head in the Sand Hallie is flightless.
+	Pretty Bird Pretty can fly!
+	Tweety Parakeety can fly!
+
+
+------------------------------TEST WATER DWELLERS------------------------------
+-----------------YOUR PART C CODE HERE!-----------------
+Number of water dwellers:
+	Expected=5
+	  Actual=5
+Number of water dwellers that breathe air:
+	Expected=2
+	  Actual=2
+Number of water dwellers that breathe water:
+	Expected=3
+	  Actual=3
+
+Should print 5 lines: Beluga breathes air, Blingy breathes water, Goldie breathes water, Spouty breathes air, and Toothy breathes water.
+
+BabyBeluga O'BabyBeluga lives in the water but breathes air!
+Blingy Gold Gold lives in the water and breathes water.
+Goldie Goldfishy lives in the water and breathes water.
+Spouty the Blue Whale lives in the water but breathes air!
+Toothy the Shark lives in the water and breathes water.
+
+
+------------------------------TEST ENDANGERED ANIMALS------------------------------
+-----------------YOUR PART C CODE HERE!-----------------
+Number of endangered animals:
+	Expected=4
+	  Actual=4
+
+Should print 4 lines for Cali, Irrelephant, Spouty, and Toothy.
+
+Cali Condor the Great says: "Help save the breathtaking California Condor!"
+Never Irrelephant says: "Help save the beautiful elephants!"
+Spouty the Blue Whale says: "Help save the mighty blue whale!"
+Toothy the Shark says: "Help save the great white shark!"
+
+
+----------Summary---------- 
+All automated tests have passed.
+Manually view all expected output anove to make sure it matches.
+Manually review your code for style.

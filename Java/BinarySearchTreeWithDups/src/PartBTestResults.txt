@@ -1,0 +1,92 @@
+------------------------------TEST A: TREE BUILT FROM A SORTED LIST, ASCENDING------------------------------
+	...building tree with entry 10000
+	...building tree with entry 20000
+	...building tree with entry 30000
+	...building tree with entry 40000
+Time required to build tree: 809 milliseconds
+Tree Info:
+	Root is Incident #30003030	Date: 2003-01-01
+	Number of nodes: 40000
+	Number of nodes equal to the root: 4
+	Number of nodes bigger than root: 39996
+	Number of nodes in left subtree: 3
+	Number of nodes in right subtree: 39996
+	Left height: 3
+	Right height: 4787
+Tree build and report complete!
+
+Processing tree...
+	Incident Date: 01/1/2003	Number of Incidents: 4	Tree Time: 0
+	Incident Date: 10/27/2015	Number of Incidents: 73	Tree Time: 0
+	Incident Date: 10/02/2009	Number of Incidents: 5	Tree Time: 0
+	Incident Date: 03/23/2010	Number of Incidents: 5	Tree Time: 0
+	Incident Date: 03/28/2015	Number of Incidents: 8	Tree Time: 0
+	Incident Date: 11/9/2018	Number of Incidents: 0	Tree Time: 0
+	Incident Date: 11/9/2000	Number of Incidents: 0	Tree Time: 0
+Processing complete. 
+Total Time Required: Tree: 0
+
+
+------------------------------TEST B: TREE BUILT FROM A SORTED LIST, DESCENDING------------------------------
+	...building tree with entry 10000
+	...building tree with entry 20000
+	...building tree with entry 30000
+	...building tree with entry 40000
+Time required to build tree: 12957 milliseconds
+Tree Info:
+	Root is Incident #150938462	Date: 2015-10-27
+	Number of nodes: ***Cannot find the number of nodes! Stack overflow.
+	Number of nodes equal to the root: 73
+	Number of nodes bigger than root: 0
+	Number of nodes in left subtree: ***Cannot find the number of nodes in the left subtree! Too many nodes! Stack overflow.
+	Number of nodes in right subtree: 0
+	Left height: ***Cannot find the left height! Left subtree is too deep and it caused a stack overflow.
+	Right height: 0
+Tree build and report complete!
+
+Processing tree...
+	Incident Date: 01/1/2003	Number of Incidents: 4	Tree Time: 5
+	Incident Date: 10/27/2015	Number of Incidents: 73	Tree Time: 0
+	Incident Date: 10/02/2009	Number of Incidents: 5	Tree Time: 2
+	Incident Date: 03/23/2010	Number of Incidents: 5	Tree Time: 0
+	Incident Date: 03/28/2015	Number of Incidents: 8	Tree Time: 0
+	Incident Date: 11/9/2018	Number of Incidents: 0	Tree Time: 0
+	Incident Date: 11/9/2000	Number of Incidents: 0	Tree Time: 1
+Processing complete. 
+Total Time Required: Tree: 8
+
+
+------------------------------TEST C: TREE BUILT FROM A SHUFFLED LIST------------------------------
+	...building tree with entry 10000
+	...building tree with entry 20000
+	...building tree with entry 30000
+	...building tree with entry 40000
+Time required to build tree: 41 milliseconds
+Tree Info:
+	Root is Incident #156226253	Date: 2015-09-13
+	Number of nodes: 40000
+	Number of nodes equal to the root: 100
+	Number of nodes bigger than root: 4592
+	Number of nodes in left subtree: 35407
+	Number of nodes in right subtree: 4592
+	Left height: 150
+	Right height: 159
+Tree build and report complete!
+
+Processing tree and list...
+	Incident Date: 01/1/2003	Number of Incidents: 4	Tree Time: 0  List Time: 34
+	Incident Date: 10/27/2015	Number of Incidents: 73	Tree Time: 0  List Time: 44
+	Incident Date: 10/02/2009	Number of Incidents: 5	Tree Time: 0  List Time: 27
+	Incident Date: 03/23/2010	Number of Incidents: 5	Tree Time: 0  List Time: 24
+	Incident Date: 03/28/2015	Number of Incidents: 8	Tree Time: 0  List Time: 26
+	Incident Date: 11/9/2018	Number of Incidents: 0	Tree Time: 0  List Time: 32
+	Incident Date: 11/9/2000	Number of Incidents: 0	Tree Time: 0  List Time: 23
+Processing complete. 
+Total Time Required: Tree: 0 List: 210
+Tree was faster.
+
+------------------------------EXTRA CREDIT TEST: COUNT OF UNIQUE VALUES------------------------------
+Unique Values: 
+Expected=4664
+  Actual=4664
+
