@@ -1,7 +1,7 @@
 <?php
 //the Metro2 files out of LeasePak do not correct flag items out for collection, or some of the statuses comment codes
 //this takes the file, then line by line looks up the current app status for that month, and corrects the comment code
-include("binVars.php")
+include("binVars.php");
 
 $script = array_shift($argv);
 $rlsDate = array_shift($argv);
